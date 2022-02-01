@@ -84,6 +84,7 @@
             font-weight: 700;
             margin: auto 14px;
             font-family: "Red Hat Display", sans-serif;
+            text-decoration: none;
         }
         
         button {
@@ -102,6 +103,21 @@
             margin: 5% auto;
             font-weight: 700;
         }
+        
+        .cancel-btn:hover {
+            color: hsl(223, 26%, 76%);
+            transition: color 0s;
+        }
+        
+        .container2>a:hover {
+            color: hsl(245, 76%, 63%);
+            transition: color 0s;
+        }
+        
+        .payment-btn>a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -117,8 +133,10 @@
             <h2>Annual Plan <br /><span>$59.99/year</span></h2>
             <a href="#">Change</a><br />
         </div>
-        <button>Proceed to Payment</button>
-        <p class="cancel-btn">Cancel Order</p>
+        <button class="payment-btn"><a href="#">Proceed to Payment</a></button>
+        <a href="#">
+            <p class="cancel-btn">Cancel Order</p>
+        </a>
     </div>
 </body>
 
