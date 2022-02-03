@@ -87,20 +87,8 @@
             text-decoration: none;
         }
         
-        button {
-            background-color: hsl(245, 75%, 52%);
-            color: #fff;
-            margin-top: 32px;
-            padding: 12px;
-            width: 80%;
-            font-family: "Red Hat Display", sans-serif;
-            font-size: 16px;
-            border-radius: 12px;
-            border-style: none;
-        }
-        
         .cancel-btn {
-            margin: 5% auto;
+            margin: 2% auto;
             font-weight: 700;
         }
         
@@ -118,6 +106,20 @@
             color: #fff;
             text-decoration: none;
         }
+        
+        button {
+            font-family: "Red Hat Display", sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: hsl(245, 75%, 52%);
+            color: hsl(225, 100%, 100%);
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 32px;
+            padding: 16px 0;
+            border-radius: 8px;
+            border: none;
+        }
     </style>
 </head>
 
@@ -131,11 +133,13 @@
         <div class="container2">
             <img src="./images/icon-music.svg" alt="music icon" />
             <h2>Annual Plan <br /><span>$59.99/year</span></h2>
-            <a href="#">Change</a><br />
+            <a href="#">Change</a>
         </div>
-        <button type="button" class="payment-btn">
+        <button type="submit">Proceed to Payment</button>
+        <!-- <button type="button" class="payment-btn">
         <a href="# ">Proceed to Payment</a>
-      </button>
+      </button> -->
+        <!-- <button type="submit">Proceed to Payment</button> -->
         <a href="# ">
             <p class="cancel-btn">Cancel Order</p>
         </a>
