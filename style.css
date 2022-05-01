@@ -33,9 +33,9 @@ h2 {
 
 .container {
     background-color: hsl(225, 100%, 100%);
-    width: 420px;
-    height: 620px;
-    margin: 100px auto;
+    width: 30%;
+    height: 40%;
+    margin: 4px auto;
     text-align: center;
     border-radius: 12px;
 }
@@ -97,9 +97,8 @@ button {
     font-weight: 600;
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 100%);
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 32px;
+    width: 80%;
+    margin: 18px 0 18px 20px;
     padding: 16px 0;
     border-radius: 8px;
     border: none;
@@ -107,4 +106,5 @@ button {
 
 button:hover {
     background-color: hsl(245, 64%, 62%);
+    cursor: pointer;
 }
